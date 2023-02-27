@@ -7,7 +7,7 @@
      import org.openqa.selenium.chrome.ChromeDriver;
 
         public class NewProject {
-            public static WebDriver driver, high;
+            public static WebDriver driver;
             public static void highlight(WebDriver driver, WebElement ele) {
                 JavascriptExecutor js = (JavascriptExecutor) driver;
                 js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid blue;');",ele);
